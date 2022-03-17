@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles/style-index.css" type="text/css" rel="stylesheet">
+    <title>F4Bank</title>
+</head>
+
+<body>
+    <div role="group" class="container">
+        <!-- CABEÇALHO - MANTER PARA TODOS OS HTMLS -->
+        <header>
+            <div class="logo-e-titulo" role="menuitem">
+                <img src="./img/f4bank.png" alt="Logo F4Bank" id="logo"/>
+                <h1>F4Bank</h1>
+            </div>
+            <div class="itens" role="menuitem">
+                <a href="./index.html" role="link"><p><strong>Página inicial</strong></p></a>
+                <a href="./html/quem-somos.html" role="link"><p><strong>Quem somos</strong></p></a>
+                <a href="./html/nossos-produtos.html" role="link"><p><strong>Nossos produtos</strong></p></a>
+                <a href="./html/contato.html" role="link"><p><strong>Contato</strong></p></a>
+                <a href="./html/nosso-time.html" role="link"><p><strong>Nosso time</strong></p></a>
+                <a href="./html/cases-de-sucesso.html" role="link"><p><strong>Cases de sucesso</strong></p></a>
+                <a href="./html/faq.html" role="link"><p><strong>FAQ</strong></p></a>
+            </div>
+
+
+        </header>
+<!-- CORPO DO HTML - DIFERE PARA TODOS -->
+        <main>
+            <div id="login-e-cadastro">
+                <h2 id="frase" role="text">Especialistas na solução do seu problema: Crie já sua conta digital gratuita</h2>
+                <form action="/pagina-processa-dados-do-form" method="post" class="cadastro" role="form">
+                    <div class="dados">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" />
+                    </div>
+                    <div class="dados">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <div class="dados">
+                        <label for="tel">Telefone/Celular</label>
+                        <input type="tel" id="tel" />
+                    </div>
+                    <div class="dados" id="button">
+                        <button type="submit">Cadastre-se</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="container-anuncio" role="group">
+                <img src="./img/livre-taxa.png" alt="foto-ilustrando-pessoa-sem-tarifas" class="foto-anuncio">
+                <h2 id="anuncio-1" role="text">Único, sem pegadinhas e como você sempre quis: SUA CONTA DIGITAL 100% ISENTA DE TARIFAS.</h2>
+            </div>
+
+            <div class="container-anuncio" role="group">
+                <img src="./img/cartao.png" alt="foto-ilustrando-cartao-e-cashback" class="foto-anuncio">
+                <h2 id="anuncio-2" role="text">E tem +:</h2>
+                <h2 id="anuncio-3" role="text">Ganhe cashback em suas compras feitas pelo app.</h2>
+            </div>
+
+            <div class="container-anuncio" role="group">
+                <img src="./img/investir.png" alt="foto-ilustrando-pessoa-investindo" class="foto-anuncio">
+                <h2 id="anuncio-4" role="text">Invista como quiser e veja seu dinheiro render.</h2>
+            </div>
+        </main>
+
+<!-- RODAPÉ - MANTER PARA TODOS OS HTMLS -->
+        <footer>
+            <p id="info">Baixe nosso app e nos siga nas redes sociais:</p>
+            <div id="icones">
+                <img src="./img/google-play.png" alt="app-play-store" class="foto-info">
+                <img src="./img/app-store.png" alt="app-apple" class="foto-info">
+                <img src="./img/facebook.png" alt="facebook-f4bank" class="foto-info">
+                <img src="./img/instagram.png" alt="instagram-f4bank" class="foto-info">
+                <img src="./img/linkedin.png" alt="linkedin-f4bank" class="foto-info">
+                <img src="./img/twitter.png" alt="twitter-f4bank" class="foto-info">
+                <img src="./img/youtube.png" alt="youtube-f4bank" class="foto-info">
+            </div>
+        </footer> 
+    </div>
+</body>
+</html>
