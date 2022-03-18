@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: solid gold;
+    color: orange;
+}
+
+
+
+.textoprin div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    text-shadow:5px 5px 10px #ffe4a8;
+}
+
+
+#pix{
+    display: flex;
+    height: 30%;
+    width: 30%;
+}
