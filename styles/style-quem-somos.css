@@ -1,0 +1,30 @@
+h2 {
+    padding:10px;
+    text-align: center;
+    font-size: 7vw;
+    color: rgb(241, 142, 48);
+}
+
+#foto-quem-somos {
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0 0 3em rgb(241, 142, 48);    
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-quem-somos {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.texto-quem-somos {
+    align-self: center;
+    font-size: 2vw;
+    padding: 4px;
+    margin-left: 10px;
+}

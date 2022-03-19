@@ -1,7 +1,5 @@
-# landing-page-template
+# landing-page-template-final
 
-insidious-ground.surge.sh
+4bank-group4.surge.sh
 
-# Atualização com a página de dúvidas:
-f4banklabenuproj.surge.sh
 
