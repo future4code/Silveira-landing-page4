@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 h1{
     display: flex;
     justify-content: center;
@@ -15,11 +17,9 @@ h1{
 
 .textoprin div{
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    row-gap: 20px;
-    column-gap: 20px;
+    grid-template-columns: repeat(3, 3fr);
     align-items: center;
-    margin: 10px;
+    margin: 2px;
 }
 
 .test{
@@ -45,9 +45,12 @@ h1{
 }
 
 
-@media screen and (min-device-width : 481px) and (max-device-width : 860px){
+@media screen and (min-device-width : 400px) and (max-device-width : 860px){
     
+    
+
 }
+
 
 
 /*margin: 10px;
